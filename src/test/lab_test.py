@@ -1,5 +1,5 @@
 import unittest
-from ..main.lab import create_list, access_list_element, reverse_list, combine_lists
+from src.main.lab import create_list, access_list_element, reverse_list, combine_lists
 
 
 class TestLabFunctions(unittest.TestCase):
