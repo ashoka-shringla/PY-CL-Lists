@@ -1,8 +1,8 @@
 import unittest
 from src.main.lab import create_list, access_list_element, reverse_list, combine_lists
+  
 
-
-class TestLabFunctions(unittest.TestCase):
+class TestLabFunctions(unittest.TestCase):  
 
     def test_create_list_positive(self):
         # Test for a positive number of elements
@@ -20,7 +20,7 @@ class TestLabFunctions(unittest.TestCase):
             create_list(-5)
         self.assertEqual(str(context.exception), "Number of elements must be positive")
 
-
+    
     def test_access_list_element(self):
         test_list = [1, 2, 3, 4, 5]
         self.assertEqual(access_list_element(test_list, 2), 3)
