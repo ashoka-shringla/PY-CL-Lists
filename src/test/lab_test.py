@@ -2,7 +2,7 @@ import unittest
 from src.main.lab import create_list, access_list_element, reverse_list, combine_lists
     
         
-class TestLabFunctions(unittest.TestCase): hello   
+class TestLabFunctions(unittest.TestCase):
      
     def test_create_list_positive(self):
         # Test for a positive number of elements
