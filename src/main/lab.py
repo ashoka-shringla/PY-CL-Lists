@@ -26,7 +26,7 @@ def access_list_element(my_list, index):
     if index < 0 or index >= len(my_list):
         return "Invalid index"
     
-    return -1
+    return my_list[index]
 
 
 def reverse_list(my_list):
